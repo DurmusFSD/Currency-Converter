@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Döviz Çevirici</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="asset/money.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <p>Döviz kuru</p>
+      <p id="rate">0</p>
+      <label for="amount">Miktar</label>
+      <input type="text" id="amount" value="" />
+      <div class="from-to">
+        <div class="from">
+          <label for="">form</label>
+          <div class="select" id="from">
+            <span>USD</span>
+            <i class="fa-solid fa-caret-down"></i>
+            <ul>
+              <li><span>USD</span></li>
+            </ul>
+          </div>
+        </div>
+        <i id="convert-icon" class="fa-solid fa-arrow-right-arrow-left"></i>
+        <div class="to">
+          <label for="">to</label>
+          <div class="select" id="to">
+            <span>USD</span>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+      </div>
+      <button class="convert">Dönüştür</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
