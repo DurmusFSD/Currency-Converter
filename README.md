@@ -5,9 +5,9 @@ Currency-Converter Projesi
 Currency Converter Projesi
 Bu proje, farklı para birimlerinin dönüşümünü gerçekleştiren bir para birimi dönüştürücü uygulamasını içerir. Bu uygulama, kullanıcıların bir para birimini diğerine dönüştürmelerine olanak tanır. Aynı zamanda güncel döviz kurlarını çevrimiçi olarak alabilir ve kullanıcılara doğru ve güncel dönüşüm sonuçları sunar.
 
-<img src="img.png" alt="">
+<img src="asset/img.png" alt="">
 
-<img src="img1.png" alt="">
+<img src="asset/img1.png" alt="">
 
 Özellikler
 Farklı para birimleri arasında dönüşüm yapabilme.
@@ -58,6 +58,6 @@ Eğer herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen [durmusozgul66@
 Teşekkürler
 Bu projeyi kullanmayı tercih ettiğiniz için teşekkür ederiz!
 
-![](ekran.gif)
+![](asset/ekran.gif)
 
 Durmuş Özgül
